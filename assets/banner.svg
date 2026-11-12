@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="Industrial Water Logistics Simulation"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#0B1220"/><stop offset="52%" stop-color="#12395D"/><stop offset="100%" stop-color="#087F8C"/></linearGradient></defs><rect width="1200" height="240" fill="url(#g)"/><g fill="none" stroke="#85DEDA" opacity=".18" stroke-width="2"><path d="M65 190 L200 105 L350 160 L510 65 L675 130 L845 58 L1075 150"/><circle cx="200" cy="105" r="14"/><circle cx="510" cy="65" r="14"/><circle cx="845" cy="58" r="14"/></g><rect x="185" y="50" width="830" height="130" rx="18" fill="#0B1220" opacity=".55"/><text x="600" y="103" font-size="40" fill="white" font-family="Arial,Helvetica,sans-serif" font-weight="700" text-anchor="middle">Industrial Water Logistics Simulation</text><text x="600" y="148" font-size="21" fill="#C8F4F2" font-family="Arial,Helvetica,sans-serif" text-anchor="middle">Enterprise Case Study  |  GIS  |  Optimization  |  Serious Games</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Industrial Water Logistics Simulation">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="53%" stop-color="#12395D"/>
+      <stop offset="100%" stop-color="#087F8C"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1200" height="260" fill="url(#background)"/>
+  <text x="600" y="113" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="700" fill="#FFFFFF">Industrial Water Logistics Simulation</text>
+  <text x="600" y="158" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" fill="#C8F4F2">Project Leadership  •  WebGL &amp; Python  •  GIS &amp; Optimization</text>
+  <path d="M0 221 C185 195 365 247 600 229 S1020 203 1200 232 L1200 260 L0 260 Z" fill="#0B1220" opacity=".42"/>
+</svg>
