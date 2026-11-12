@@ -1,63 +1,73 @@
-# Base documental, alcance técnico y atribuciones
+# Contexto técnico, dirección del proyecto y documentación
 
-## Proyecto
+## El proyecto
 
-**Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas.**
+En **Plenumsoft Energy & Sustainability** dirigí el desarrollo de una plataforma de simulación logística para el transporte y la recolección de agua en yacimientos de hidrocarburos en lutitas.
 
-Presentado en el **Congreso Mexicano del Petróleo**, León, Guanajuato, junio de 2019. El trabajo identifica como autores a **Felipe Manuel Pacheco Rosado** y **Yahvé Isaías Solís Aranda**.
+En junio de 2019 presenté este trabajo junto con **Felipe Manuel Pacheco Rosado**, director de Plenumsoft Energy, durante el **Congreso Mexicano del Petróleo**, celebrado en León, Guanajuato.
 
-## Dirección y responsabilidades
+El trabajo técnico se tituló **«Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas»** y ambos figuramos como autores.
 
-Isaías Solís indicó haber **dirigido el proyecto tecnológico** y participado en su exposición junto con el director de Plenumsoft Energy. El documento también lo identifica históricamente como **Gerente Técnico** y hace referencia a su experiencia de coordinación de equipos multidisciplinarios.
+## Mi responsabilidad
 
-La dirección del proyecto no equivale a atribuirse personalmente la programación de cada componente.
+Como responsable de la **dirección del proyecto tecnológico**, coordiné el desarrollo de una solución que combinaba ingeniería de software, simulación, información geográfica e interacción tridimensional.
 
-## Enfoque del desarrollo y las decisiones
+Nuestro objetivo era transformar un problema logístico complejo en una herramienta con la que los usuarios pudieran construir escenarios, evaluar restricciones y comparar alternativas para la toma de decisiones.
 
-La necesidad industrial era planificar y simular la logística de agua dulce y agua de retorno, considerando recursos y puntos de suministro/recolección variables en el tiempo.
+El proyecto fue un trabajo multidisciplinario. Por ello, al describir mi responsabilidad de dirección, distingo mi función de liderazgo del trabajo de implementación realizado por los distintos integrantes del equipo.
 
-El sistema presentado articuló:
+## El problema que abordamos
 
-- Modelos matemáticos de transporte de agua.
-- Interfaces de usuario inspiradas en **Serious Games**.
-- Capas de información geográfica y construcción visual de escenarios.
-- Configuración logística de pipas, pozos, plantas y tuberías.
-- Motor físico para flujo y pérdidas de presión.
-- Modelos de inferencia sobre riesgos y variables socioambientales.
-- Análisis de rutas con criterios de menor costo, menor riesgo o balance entre ambos.
-- Registro y consulta de resultados de simulación.
+Para planificar la logística del agua en operaciones de hidrocarburos no convencionales debíamos considerar tanto el **abastecimiento de agua dulce** como la **recolección y el traslado del agua de retorno** hacia instalaciones de tratamiento.
 
-## Tecnologías
+La ubicación de los recursos, los volúmenes necesarios, los puntos de suministro y las restricciones operativas podían variar con el tiempo. Necesitábamos representar esas condiciones y analizar su efecto en rutas, costos, tiempos y riesgos.
 
-El responsable del proyecto confirmó el uso de **WebGL y Python**, entre otras tecnologías.
+## Enfoque técnico
 
-Los documentos del congreso describen además **GIS, simulación física, modelos probabilísticos, algoritmos genéticos, sistemas de recomendación, Serious Games** y el uso previsto del **modelo PPDM** para organizar la información.
+La plataforma integró las siguientes capacidades:
 
-No se dispone aquí de inventario completo de versiones, frameworks de frontend/backend, repositorios originales ni diagramas internos de implementación. No se infiere que WebGL o Python sean responsables de funciones concretas sin evidencia adicional.
+- **Modelado matemático del transporte:** representación del movimiento de agua entre fuentes, pozos y puntos de recolección.
+- **Interacción bajo el enfoque Serious Games:** creación y modificación visual de escenarios con recursos configurables.
+- **Información geográfica (GIS):** utilización de capas georreferenciadas para analizar rutas y el entorno operativo.
+- **Gestión de activos logísticos:** configuración de camiones cisterna, pozos, plantas de tratamiento y redes de tuberías.
+- **Simulación física:** estimación del comportamiento del flujo y de pérdidas de presión en tuberías.
+- **Análisis de riesgos:** incorporación de variables socioambientales y modelos de inferencia para comparar escenarios.
+- **Evaluación de alternativas:** exploración de rutas de menor costo, menor riesgo y opciones equilibradas.
+- **Reportes de simulación:** consulta de resultados para revisar decisiones y ajustar escenarios.
 
-## Evidencia documental y visual
+## Tecnologías utilizadas
 
-El artículo técnico de 20 páginas entregado por el coautor incluye:
+Durante el desarrollo empleamos **WebGL y Python**, además de herramientas y métodos asociados con **GIS, modelado matemático, simulación de fluidos y optimización**.
 
-- **Páginas 10–11:** modelo computacional, interfaces Serious Games y sistemas de transporte.
-- **Páginas 11–12:** parámetros físicos de tuberías, bombas, pérdidas de presión y materiales.
-- **Página 13:** esquema funcional del sistema y configuración de escenario.
-- **Páginas 14–16:** evaluación de alternativas de costo/riesgo, multiusuario, escenarios GIS y recursos configurables.
-- **Páginas 17–18:** simulación en tiempo real, inferencia socioambiental y reportes.
-- **Página 20:** semblanza de ambos autores, incluyendo la función histórica de Gerente Técnico del coautor.
+En el trabajo técnico del congreso también describimos modelos probabilísticos, algoritmos genéticos, sistemas de recomendación y el modelo de datos **PPDM** como parte del enfoque de la solución.
 
-Las capturas disponibles fueron aportadas por el responsable del proyecto y declaradas parte del material utilizado para su difusión en congresos.
+No incluyo un inventario completo de frameworks o versiones porque no conservo aquí una especificación técnica que permita identificarlos con precisión.
 
-## Límites y propiedad intelectual
+## Evidencia del proyecto
 
-Este es un **caso de estudio histórico**, no un relanzamiento del producto.
+He reunido en este repositorio capturas históricas de la plataforma que utilizamos en material de difusión y presentaciones de congresos. Muestran el constructor de escenarios, las vistas tridimensionales, los recursos configurables y los reportes.
 
-La documentación de 2019 describe las capacidades existentes o previstas en ese momento; no valida la operación actual, la exactitud independiente de cada componente ni ahorros cuantificados.
+La memoria técnica del congreso documenta aspectos específicos:
 
-No se publica código, credenciales, información contractual, datos sensibles ni fuentes internas. Las marcas, gráficos originales y software corresponden a sus respectivos titulares. Deben respetarse los permisos de redistribución aplicables a las imágenes.
+| Sección del documento | Contenido |
+| :--- | :--- |
+| Páginas 10–11 | Desarrollo del modelo, interfaces Serious Games y transporte de agua |
+| Páginas 11–12 | Simulación física, bombas, tuberías y pérdidas de presión |
+| Páginas 13–14 | Arquitectura funcional, escenarios y evaluación de costo/riesgo |
+| Páginas 15–16 | Interfaz multiusuario, GIS y configuración de recursos |
+| Páginas 17–18 | Simulación en tiempo real y reportes |
+| Página 20 | Trayectoria profesional de los autores y mi función como Gerente Técnico |
 
-## Fuentes del caso
+## Alcance de este portafolio
 
-1. *Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas*, artículo técnico presentado al CMP 2019.
-2. Presentación del proyecto en el CMP 2019.
-3. Capturas históricas compartidas por el director del proyecto.
+Publico este material como **evidencia histórica de mi experiencia dirigiendo proyectos de software industrial**. Las capturas reflejan el estado de la plataforma en la época de su presentación; no implican que hoy esté disponible ni que la aplicación siga operando en su entorno original.
+
+No publico el código fuente ni información interna de Plenumsoft, y no atribuyo al proyecto porcentajes de ahorro o impactos económicos que no hayamos documentado.
+
+El software, las marcas y los materiales originales conservan la titularidad que corresponda a sus respectivos propietarios.
+
+## Material de referencia
+
+- *Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas*. Artículo técnico del Congreso Mexicano del Petróleo, 2019.
+- Presentación del proyecto realizada en el Congreso Mexicano del Petróleo, 2019.
+- Capturas históricas de la plataforma utilizadas para su presentación y difusión.
