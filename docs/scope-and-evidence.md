@@ -1,73 +1,49 @@
-# Contexto técnico, dirección del proyecto y documentación
+# Simulación de logística de agua — Tecnología y dirección del proyecto
 
 ## El proyecto
 
-En **Plenumsoft Energy & Sustainability** dirigí el desarrollo de una plataforma de simulación logística para el transporte y la recolección de agua en yacimientos de hidrocarburos en lutitas.
+En **Plenumsoft Energy & Sustainability** dirigí el desarrollo de una plataforma de simulación para analizar la logística del abastecimiento y recolección de agua en yacimientos de hidrocarburos en lutitas.
 
-En junio de 2019 presenté este trabajo junto con **Felipe Manuel Pacheco Rosado**, director de Plenumsoft Energy, durante el **Congreso Mexicano del Petróleo**, celebrado en León, Guanajuato.
+En junio de **2019** presenté el proyecto con **Felipe Manuel Pacheco Rosado**, director de Plenumsoft Energy, en el **Congreso Mexicano del Petróleo**, celebrado en León, Guanajuato.
 
-El trabajo técnico se tituló **«Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas»** y ambos figuramos como autores.
+El trabajo técnico que presentamos se tituló **«Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas»**.
 
-## Mi responsabilidad
+## El problema
 
-Como responsable de la **dirección del proyecto tecnológico**, coordiné el desarrollo de una solución que combinaba ingeniería de software, simulación, información geográfica e interacción tridimensional.
+La planificación del agua en la operación de yacimientos no convencionales requiere considerar fuentes, pozos, plantas, vehículos, redes y volúmenes variables.
 
-Nuestro objetivo era transformar un problema logístico complejo en una herramienta con la que los usuarios pudieran construir escenarios, evaluar restricciones y comparar alternativas para la toma de decisiones.
+Trabajamos en una herramienta para construir modelos de operación, representar restricciones y evaluar alternativas de rutas y recursos a partir de sus costos, necesidades técnicas y riesgos.
 
-El proyecto fue un trabajo multidisciplinario. Por ello, al describir mi responsabilidad de dirección, distingo mi función de liderazgo del trabajo de implementación realizado por los distintos integrantes del equipo.
+## La solución tecnológica
 
-## El problema que abordamos
+La plataforma integró varias capacidades:
 
-Para planificar la logística del agua en operaciones de hidrocarburos no convencionales debíamos considerar tanto el **abastecimiento de agua dulce** como la **recolección y el traslado del agua de retorno** hacia instalaciones de tratamiento.
-
-La ubicación de los recursos, los volúmenes necesarios, los puntos de suministro y las restricciones operativas podían variar con el tiempo. Necesitábamos representar esas condiciones y analizar su efecto en rutas, costos, tiempos y riesgos.
-
-## Enfoque técnico
-
-La plataforma integró las siguientes capacidades:
-
-- **Modelado matemático del transporte:** representación del movimiento de agua entre fuentes, pozos y puntos de recolección.
-- **Interacción bajo el enfoque Serious Games:** creación y modificación visual de escenarios con recursos configurables.
-- **Información geográfica (GIS):** utilización de capas georreferenciadas para analizar rutas y el entorno operativo.
-- **Gestión de activos logísticos:** configuración de camiones cisterna, pozos, plantas de tratamiento y redes de tuberías.
-- **Simulación física:** estimación del comportamiento del flujo y de pérdidas de presión en tuberías.
-- **Análisis de riesgos:** incorporación de variables socioambientales y modelos de inferencia para comparar escenarios.
-- **Evaluación de alternativas:** exploración de rutas de menor costo, menor riesgo y opciones equilibradas.
-- **Reportes de simulación:** consulta de resultados para revisar decisiones y ajustar escenarios.
+- **Escenarios interactivos:** creación y configuración visual de activos y condiciones operativas.
+- **Información geográfica:** incorporación de capas GIS para visualizar rutas, recursos y contexto territorial.
+- **Modelado de recursos:** representación de camiones cisterna, pozos, plantas de tratamiento y redes de tuberías.
+- **Simulación física:** análisis de flujo y pérdidas de presión.
+- **Evaluación de riesgos:** consideración de factores socioambientales e incertidumbre.
+- **Comparación de alternativas:** exploración de opciones según costo y riesgo.
+- **Reportes:** consulta de resultados y revisión de escenarios.
 
 ## Tecnologías utilizadas
 
-Durante el desarrollo empleamos **WebGL y Python**, además de herramientas y métodos asociados con **GIS, modelado matemático, simulación de fluidos y optimización**.
+Trabajamos con **WebGL** y **Python**, además de tecnologías y métodos relacionados con **GIS, simulación física y modelado matemático**.
 
-En el trabajo técnico del congreso también describimos modelos probabilísticos, algoritmos genéticos, sistemas de recomendación y el modelo de datos **PPDM** como parte del enfoque de la solución.
+El trabajo presentado incluyó líneas de investigación sobre modelos gráficos probabilísticos, algoritmos genéticos, sistemas de recomendación y el estándar de datos **PPDM**. Estas herramientas y enfoques formaban parte de la propuesta técnica, sin atribuirles una certificación o una implementación específica que no hayamos identificado.
 
-No incluyo un inventario completo de frameworks o versiones porque no conservo aquí una especificación técnica que permita identificarlos con precisión.
+## Mi participación
 
-## Evidencia del proyecto
+Como **director del proyecto**, coordiné un trabajo multidisciplinario, participé en la articulación de los componentes técnicos y conduje el desarrollo de una plataforma utilizable para explorar escenarios industriales.
 
-He reunido en este repositorio capturas históricas de la plataforma que utilizamos en material de difusión y presentaciones de congresos. Muestran el constructor de escenarios, las vistas tridimensionales, los recursos configurables y los reportes.
+También fui **coautor y presentador** del trabajo realizado para el Congreso Mexicano del Petróleo 2019.
 
-La memoria técnica del congreso documenta aspectos específicos:
+## Presentación técnica
 
-| Sección del documento | Contenido |
-| :--- | :--- |
-| Páginas 10–11 | Desarrollo del modelo, interfaces Serious Games y transporte de agua |
-| Páginas 11–12 | Simulación física, bombas, tuberías y pérdidas de presión |
-| Páginas 13–14 | Arquitectura funcional, escenarios y evaluación de costo/riesgo |
-| Páginas 15–16 | Interfaz multiusuario, GIS y configuración de recursos |
-| Páginas 17–18 | Simulación en tiempo real y reportes |
-| Página 20 | Trayectoria profesional de los autores y mi función como Gerente Técnico |
+Las imágenes conservadas en el repositorio muestran el constructor de escenarios, vistas 3D, recursos configurables, resultados y reportes.
 
-## Alcance de este portafolio
+El trabajo técnico se presentó en el Congreso Mexicano del Petróleo de 2019, en León, Guanajuato, bajo el título **«Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas»**.
 
-Publico este material como **evidencia histórica de mi experiencia dirigiendo proyectos de software industrial**. Las capturas reflejan el estado de la plataforma en la época de su presentación; no implican que hoy esté disponible ni que la aplicación siga operando en su entorno original.
+## Sobre el desarrollo
 
-No publico el código fuente ni información interna de Plenumsoft, y no atribuyo al proyecto porcentajes de ahorro o impactos económicos que no hayamos documentado.
-
-El software, las marcas y los materiales originales conservan la titularidad que corresponda a sus respectivos propietarios.
-
-## Material de referencia
-
-- *Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas*. Artículo técnico del Congreso Mexicano del Petróleo, 2019.
-- Presentación del proyecto realizada en el Congreso Mexicano del Petróleo, 2019.
-- Capturas históricas de la plataforma utilizadas para su presentación y difusión.
+El producto se desarrolló en el ámbito de Plenumsoft Energy & Sustainability. Este repositorio reúne información del trabajo y mi participación profesional, sin publicar el código ni materiales internos del software.
