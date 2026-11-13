@@ -22,13 +22,13 @@ La propuesta reunió herramientas habituales de ingeniería industrial —modelo
 
 > **Mi rol:** dirección del proyecto tecnológico, coordinación del desarrollo y presentación de resultados. Este repositorio es un **caso de estudio de una plataforma empresarial histórica**; no publica su código propietario ni implica que el producto continúe disponible.
 
-## 🎯 El reto
+## El reto
 
 En la logística del agua para yacimientos de lutitas intervienen fuentes de suministro, pozos, vehículos cisterna, tuberías y plantas de tratamiento. La disponibilidad de agua, los puntos de recolección y las condiciones de transporte pueden cambiar con el tiempo.
 
 No bastaba con dibujar una ruta en un mapa: debíamos representar **recursos con restricciones**, estimar sus efectos sobre la operación y permitir analizar alternativas de **menor costo, menor riesgo o un equilibrio entre ambos**.
 
-## 🧩 Lo que construimos
+## Lo que construimos
 
 Una **plataforma multiusuario y multiplataforma (web/escritorio)** para crear y simular escenarios logísticos, combinando:
 
@@ -44,13 +44,13 @@ Una **plataforma multiusuario y multiplataforma (web/escritorio)** para crear y 
 
 La propuesta contemplaba también el estándar de datos **PPDM** para organizar información del sector petrolero. El documento técnico lo describe como parte del diseño; no se afirma aquí una certificación de conformidad con PPDM.
 
-## 🛠️ Tecnologías y enfoques
+## Tecnologías y enfoques
 
 **WebGL** para la visualización interactiva 3D, **Python** como parte de las tecnologías empleadas en el desarrollo, integración **GIS**, modelos matemáticos de transporte, simulación física, técnicas de optimización y diseño de interacción bajo la filosofía **Serious Games**.
 
 El trabajo presentado en 2019 también describe modelos gráficos probabilísticos, algoritmos genéticos y sistemas de recomendación para el análisis de rutas y riesgos. La documentación compartida no identifica el framework específico de WebGL ni permite atribuir cada módulo a una tecnología concreta; por ello evitamos inventar un stack detallado.
 
-## 🖥️ La plataforma en funcionamiento
+## La plataforma en funcionamiento
 
 ### Diseñar y configurar escenarios
 
@@ -80,7 +80,7 @@ Las ejecuciones podían producir valores sobre **costos, agua consumida y residu
 
 El sistema incluía consulta de reportes para apoyar la revisión de resultados y la iteración de escenarios.
 
-## 🔄 De la hipótesis al análisis
+## De la hipótesis al análisis
 
 ```mermaid
 flowchart LR
@@ -93,7 +93,7 @@ flowchart LR
   F -->|No| G[Alternativa evaluada]
 ```
 
-## 📌 Mi contribución y los resultados
+## Mi contribución y los resultados
 
 Como **director del proyecto**, mi responsabilidad fue conducir el desarrollo de una solución que reunía disciplinas y componentes diversos, articulando el problema operativo con una plataforma utilizable y con capacidad de presentación técnica.
 
