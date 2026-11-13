@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Industrial Water Logistics Simulation — GIS, Optimization & Serious Games" />
+  <img src="assets/banner.svg" width="100%" alt="Simulación inteligente de logística de agua — Ingeniería industrial y visualización 3D" />
 </p>
 
 <p align="center">
@@ -12,102 +12,116 @@
 
 # Simulación inteligente de logística de agua para la industria energética
 
-### Dirección de un proyecto tecnológico que integró simulación, modelado matemático, visualización 3D y análisis geoespacial para apoyar decisiones operativas.
+**Dirección de proyecto tecnológico · Simulación industrial · Información geoespacial · Visualización 3D**
 
-**Plenumsoft Energy & Sustainability · Proyecto empresarial · 2018–2019 · Congreso Mexicano del Petróleo 2019**
+Durante mi etapa en **Plenumsoft Energy & Sustainability**, dirigí el desarrollo de una plataforma de simulación para apoyar la planificación del abastecimiento y la recolección de agua en operaciones de hidrocarburos no convencionales.
 
-En 2019 dirigí el desarrollo de una plataforma orientada a un problema industrial concreto: **planificar el abastecimiento y la recolección de grandes volúmenes de agua en operaciones de hidrocarburos no convencionales**. Presenté el trabajo junto con **Felipe Manuel Pacheco Rosado**, director de Plenumsoft Energy, en el Congreso Mexicano del Petróleo, celebrado en León, Guanajuato.
+Nuestro trabajo combinó **modelado matemático, simulación física, información geográfica (GIS) y visualización interactiva**. Diseñamos una experiencia inspirada en los **Serious Games**, con la que los usuarios podían construir escenarios, configurar recursos, ejecutar simulaciones y analizar resultados.
 
-La propuesta reunió herramientas habituales de ingeniería industrial —modelos matemáticos, simulación de fluidos, información geográfica y evaluación de riesgos— con una experiencia de usuario inspirada en los **Serious Games**: construir un escenario, configurar activos, ejecutarlo y observar sus consecuencias.
+En junio de **2019**, presenté el proyecto junto con **Felipe Manuel Pacheco Rosado** en el **Congreso Mexicano del Petróleo**, celebrado en León, Guanajuato. Ambos participamos como autores del trabajo técnico.
 
-> **Mi rol:** dirección del proyecto tecnológico, coordinación del desarrollo y presentación de resultados. Este repositorio es un **caso de estudio de una plataforma empresarial histórica**; no publica su código propietario ni implica que el producto continúe disponible.
+## El desafío
 
-## El reto
+La logística del agua en yacimientos de lutitas requiere coordinar fuentes de suministro, pozos, vehículos cisterna, redes de tuberías y puntos de tratamiento o recolección. Cada decisión depende de restricciones de capacidad, condiciones geográficas, disponibilidad de recursos, costos y riesgos.
 
-En la logística del agua para yacimientos de lutitas intervienen fuentes de suministro, pozos, vehículos cisterna, tuberías y plantas de tratamiento. La disponibilidad de agua, los puntos de recolección y las condiciones de transporte pueden cambiar con el tiempo.
+El objetivo era ir más allá de trazar rutas: necesitábamos una herramienta para **representar las condiciones de la operación y comparar alternativas antes de tomar decisiones**.
 
-No bastaba con dibujar una ruta en un mapa: debíamos representar **recursos con restricciones**, estimar sus efectos sobre la operación y permitir analizar alternativas de **menor costo, menor riesgo o un equilibrio entre ambos**.
+## La plataforma
 
-## Lo que construimos
+Dirigí el desarrollo de una plataforma **web y de escritorio**, concebida para trabajar con escenarios logísticos desde un entorno visual.
 
-Una **plataforma multiusuario y multiplataforma (web/escritorio)** para crear y simular escenarios logísticos, combinando:
-
-| Capacidad | Qué aportaba al usuario |
+| Componente | Funcionalidad |
 | :--- | :--- |
-| **Constructor de escenarios** | Posicionar pozos, fuentes de agua, plantas, vehículos y tuberías en un lienzo geográfico |
-| **Información geoespacial (GIS)** | Integrar carreteras, caminos, poblaciones y otras capas relevantes para el análisis |
-| **Rutas y recursos** | Configurar rutas, capacidad de pipas, combustible y condiciones operativas |
-| **Simulación de fluidos** | Estimar flujo y pérdidas de presión en redes de tuberías mediante un motor físico |
-| **Análisis de riesgo** | Incorporar variables socioambientales y modelos de inferencia en la evaluación de escenarios |
-| **Optimización** | Explorar alternativas de distribución bajo criterios de costo y riesgo |
-| **Reportes** | Consultar indicadores de las ejecuciones y revisar o ajustar escenarios |
+| **Constructor de escenarios** | Ubicación y configuración de pozos, fuentes de agua, plantas, vehículos y tuberías. |
+| **Información geográfica (GIS)** | Consulta de capas territoriales, carreteras, caminos y elementos relevantes para la operación. |
+| **Rutas y recursos** | Definición de trayectorias, capacidades de transporte, combustible y parámetros operativos. |
+| **Simulación física** | Modelado de flujo de agua y pérdidas de presión en redes de tuberías. |
+| **Riesgos** | Análisis de condiciones socioambientales y escenarios de incertidumbre. |
+| **Evaluación de alternativas** | Comparación de opciones desde criterios de costo y riesgo. |
+| **Resultados y reportes** | Consulta de indicadores y revisión de ejecuciones para ajustar los escenarios. |
 
-La propuesta contemplaba también el estándar de datos **PPDM** para organizar información del sector petrolero. El documento técnico lo describe como parte del diseño; no se afirma aquí una certificación de conformidad con PPDM.
+## La plataforma en imágenes
+
+### Construcción de escenarios
+
+![Constructor de escenarios logísticos sobre información geográfica](assets/scenario-builder.jpg)
+
+*Configuración visual de los elementos que intervienen en la operación.*
+
+### Visualización tridimensional
+
+![Vista tridimensional de la simulación geoespacial](assets/geospatial-3d.jpg)
+
+*Exploración del entorno y las trayectorias desde una vista 3D.*
+
+### Configuración de recursos
+
+![Elementos configurables del escenario de simulación](assets/resource-placement.jpg)
+
+*Definición de activos, vehículos y características de la operación.*
+
+### Simulación y resultados
+
+![Resultados de la simulación logística](assets/simulation-results.jpg)
+
+*Análisis de indicadores como consumo de recursos, recorridos y costos estimados.*
+
+### Reportes
+
+![Administración de reportes de simulación](assets/simulation-reports.jpg)
+
+*Consulta de información para comparar y revisar escenarios.*
 
 ## Tecnologías y enfoques
 
-**WebGL** para la visualización interactiva 3D, **Python** como parte de las tecnologías empleadas en el desarrollo, integración **GIS**, modelos matemáticos de transporte, simulación física, técnicas de optimización y diseño de interacción bajo la filosofía **Serious Games**.
+Durante el proyecto utilizamos **WebGL y Python**, junto con tecnologías de información geográfica y modelos matemáticos para representar el transporte de agua y el comportamiento de los recursos.
 
-El trabajo presentado en 2019 también describe modelos gráficos probabilísticos, algoritmos genéticos y sistemas de recomendación para el análisis de rutas y riesgos. La documentación compartida no identifica el framework específico de WebGL ni permite atribuir cada módulo a una tecnología concreta; por ello evitamos inventar un stack detallado.
+El enfoque técnico incluyó:
 
-## La plataforma en funcionamiento
+- **GIS y visualización 3D** para trabajar con el territorio y sus activos.
+- **Simulación de fluidos** para analizar redes y condiciones hidráulicas.
+- **Modelado probabilístico** para abordar incertidumbre y riesgos.
+- **Optimización** para estudiar distintas alternativas operativas.
+- **Serious Games** como referencia para la interacción visual con escenarios complejos.
 
-### Diseñar y configurar escenarios
+El trabajo de investigación también contempló algoritmos genéticos, sistemas de recomendación y el modelo de datos **PPDM** como parte del diseño tecnológico.
 
-![Constructor de escenarios logísticos sobre GIS](assets/scenario-builder.jpg)
-
-Los operadores podían añadir elementos al escenario, relacionarlos mediante rutas y modificar parámetros antes de ejecutar la simulación.
-
-### Explorar el entorno tridimensional
-
-![Simulación geoespacial 3D](assets/geospatial-3d.jpg)
-
-La visualización interactiva permitía recorrer trayectorias y observar el escenario en un entorno tridimensional.
-
-### Modelar recursos y restricciones
-
-![Elementos configurables del escenario](assets/resource-placement.jpg)
-
-La simulación consideraba características de vehículos y componentes de la red, como capacidad de transporte, combustible y propiedades del sistema hidráulico.
-
-### Ejecutar y analizar resultados
-
-![Resultados de una simulación](assets/simulation-results.jpg)
-
-Las ejecuciones podían producir valores sobre **costos, agua consumida y residual, combustible, producción y recorridos**, entre otros indicadores del modelo.
-
-![Administración de reportes](assets/simulation-reports.jpg)
-
-El sistema incluía consulta de reportes para apoyar la revisión de resultados y la iteración de escenarios.
-
-## De la hipótesis al análisis
+## Cómo funcionaba
 
 ```mermaid
 flowchart LR
-  A[Fuentes, pozos y plantas] --> B[Modelo del escenario]
+  A[Fuentes, pozos y plantas] --> B[Construcción del escenario]
   C[Capas GIS y restricciones] --> B
-  B --> D[Simulación y análisis]
-  D --> E[Resultados y riesgos]
-  E --> F{¿Ajustar escenario?}
+  B --> D[Simulación]
+  D --> E[Indicadores, costos y riesgos]
+  E --> F{¿Comparar otra alternativa?}
   F -->|Sí| B
-  F -->|No| G[Alternativa evaluada]
+  F -->|No| G[Escenario evaluado]
 ```
 
-## Mi contribución y los resultados
+## Mi participación
 
-Como **director del proyecto**, mi responsabilidad fue conducir el desarrollo de una solución que reunía disciplinas y componentes diversos, articulando el problema operativo con una plataforma utilizable y con capacidad de presentación técnica.
+Como **director del proyecto tecnológico**, coordiné el desarrollo de una solución multidisciplinaria que integró ingeniería de software, modelado matemático, información geográfica y visualización.
 
-El resultado documentado fue un sistema con interfaces de construcción de escenarios, simulación web/escritorio y reportes; la investigación y la plataforma se **presentaron en el Congreso Mexicano del Petróleo 2019**. No se publican porcentajes de ahorro ni afirmaciones de impacto comercial que no estén sustentadas por evidencias disponibles.
+Mi responsabilidad fue conducir el trabajo del equipo y articular los diferentes componentes técnicos alrededor de una experiencia que permitiera a los usuarios **construir escenarios y analizar decisiones operativas**.
 
-## 📚 Referencias y alcance
+También participé en la **presentación del proyecto y sus resultados** en el Congreso Mexicano del Petróleo 2019.
 
-- **Trabajo técnico:** *Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas*, presentado en el Congreso Mexicano del Petróleo, León, Guanajuato, junio de 2019.
-- **Autores del trabajo:** Felipe Manuel Pacheco Rosado y Yahvé Isaías Solís Aranda.
-- [Detalle técnico, atribución y alcance del caso](docs/scope-and-evidence.md).
+## Resultados y presentación
 
-Las capturas proceden del material histórico de difusión del proyecto. El software, sus diseños y las marcas pertenecen a sus respectivos titulares; no se distribuyen fuentes ni activos internos del producto bajo una licencia abierta.
+El desarrollo dio lugar a una plataforma con herramientas de construcción de escenarios, configuración de recursos, simulación, visualización tridimensional y reportes.
+
+Presentamos el trabajo **«Método para la simulación de la logística del traslado de agua en yacimientos de hidrocarburos en lutitas»** en el **Congreso Mexicano del Petróleo 2019**.
+
+**Autores:** Felipe Manuel Pacheco Rosado y Yahvé Isaías Solís Aranda.
+
+## Sobre el proyecto
+
+Este desarrollo formó parte del trabajo tecnológico de **Plenumsoft Energy & Sustainability**. Las imágenes muestran vistas de la plataforma utilizada para las presentaciones de la época. El repositorio recoge mi experiencia profesional sin distribuir el código fuente ni información interna del producto.
+
+[Conocer más sobre el desarrollo y mi participación](docs/scope-and-evidence.md).
 
 ---
 
-<p align="center"><strong>Ingeniería, simulación y experiencia interactiva al servicio de decisiones industriales complejas.</strong></p>
-<p align="center">Caso de estudio profesional de <a href="https://github.com/isaiassolis">Isaías Solís</a></p>
+<p align="center"><strong>Dirección de proyectos · Ingeniería industrial · Simulación · Tecnología geoespacial</strong></p>
+<p align="center"><a href="https://github.com/isaiassolis">Volver a mi portafolio profesional</a></p>
